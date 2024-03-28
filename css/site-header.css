@@ -1,0 +1,36 @@
+.site_header{
+  text-align: center;
+}
+.site_header_logo{
+  display: inline-block;
+}
+.site_header_logo_img{
+  width: 35px;
+}
+.site_header_left,.site_header_right{
+  width: 100%;
+}
+.site_header_left{
+  float: left;
+}.site_header_right{
+  float: right;
+}
+
+@media only screen and (min-width:600px){
+ .site_header_right{
+  float: left;
+ }
+}
+
+@media only screen and (min-width:730px){
+  .site_header{
+    padding: 20px 0;
+  }
+  .site_header_right,.site_header_left{
+   width: auto;
+  }
+  .site_header_right{
+    float: right;
+    padding: 25px 0;
+  }
+ }

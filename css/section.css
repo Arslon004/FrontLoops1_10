@@ -1,0 +1,61 @@
+.watch-promo{
+  position: relative;
+  padding: 30px 0;
+  text-align: center;
+  overflow: hidden;
+  border-bottom: 1px solid #e0dfdf;
+}
+.watch-promo__img{
+  width: 75%;
+  margin-bottom: 20px;
+  transition: .4s ease all   ;
+  margin-bottom: 0;
+}
+@media only screen and (min-width:600px){
+  .watch-promo__img{
+    width: 60%;
+  }
+}
+@media only screen and (min-width:770px){
+  .watch-promo{
+    padding: 100px 0 200px;
+  }
+  .watch-promo_second{
+    padding: 120px 0 50px;
+    border-bottom: none;
+  }
+  .watch-promo_third{
+    padding: 0;
+    border-bottom: none;
+  }
+  .watch-promo__img{
+    position: absolute;
+    width: auto;height: 100%;
+    max-width: 70%;
+    bottom: 0;right: 0;
+    transform: translateX(30%);
+  }
+}
+.watch-promo__img3{
+  max-width: 100%;
+}
+@media only screen and (min-width:770px){
+ .watch-promo__img2{
+  width: 400px;
+  height: auto;
+ }
+}
+@media only screen and (min-width:770px){
+.watch-promo__img3{
+  position: relative;
+}
+.feature-left_sport{
+  position: absolute;
+  top:200px;right: 200px;
+  max-width: 410px;
+}
+.feature-left_sport .feature_title,
+.feature-left_sport .feature_text{
+  color: #fff;
+}
+}

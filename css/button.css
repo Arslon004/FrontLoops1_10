@@ -1,0 +1,17 @@
+.button{
+  display: inline-block;
+  padding: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.button--red{
+  color: #fff;
+  background-color: hsl(3, 61%, 60%);
+}
+@media only screen and (min-width:770px){
+  .button{
+    padding: 15px 20px;
+  }
+}
